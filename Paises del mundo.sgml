@@ -1,0 +1,50 @@
+//Vocabulario: Paises, Pais, Nombre, población, superficie, economía, moneda, gobierno, organización interna
+//Reglas: Paises contiene Pais y Pais tiene que tener siempre Nombre y contiene a población, superficie, economía, moneda, gobierno, organización interna
+
+<Paises>
+  <Pais><Nombre>España</Nombre>
+    <población>49'5 millones de habitantes</poblacion>
+    <superficie>505990 km2</superficie>
+    <economía></economía>
+    <moneda></moneda>
+    <gobierno></gobierno>
+    <organización interna></organización interna>
+  </Pais>
+  
+  <Pais><Nombre></Nombre>
+    <población></poblacion>
+    <superficie></superficie>
+    <economía></economía>
+    <moneda></moneda>
+    <gobierno></gobierno>
+    <organización interna></organización interna>
+  </Pais>
+  
+  <Pais><Nombre></Nombre>
+    <población></poblacion>
+    <superficie></superficie>
+    <economía></economía>
+    <moneda></moneda>
+    <gobierno></gobierno>
+    <organización interna></organización interna>
+  </Pais>
+  
+  <Pais><Nombre></Nombre>
+    <población></poblacion>
+    <superficie></superficie>
+    <economía></economía>
+    <moneda></moneda>
+    <gobierno></gobierno>
+    <organización interna></organización interna>
+  </Pais>
+  
+  <Pais><Nombre></Nombre>
+    <población></poblacion>
+    <superficie></superficie>
+    <economía></economía>
+    <moneda></moneda>
+    <gobierno></gobierno>
+    <organización interna></organización interna>
+  </Pais>
+  
+</Paises>
