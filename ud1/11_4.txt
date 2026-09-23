@@ -1,1 +1,8 @@
-hola
+Línea 1 htm -> html
+Línea 2 lan -> lang
+Línea 4 cerrar el title
+Línea 7 cerrar el h1
+Línea 8 b y p están al revés
+Línea 9 cerrar p
+Línea 11 cerrar li
+Línea 12 cerrar li
