@@ -1,1 +1,29 @@
-hola
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>12_1</title>       
+    </head>
+    <body>
+        <h1>Picassent</h1>
+        <h2>Historia</h2>
+        <p>Picassent es un municipio que existe desde la edad de bronce, ha pasado por conquistas como la de Al-Ándalus.
+            <br>En 1738 hubo un epidemia y le pidieron a la actual virgen de Picassent la mare de deu de la Vallivana que acabara con una epidemia y así le construirian un edificio. al acabar la epidemia le hicieron la iglesia y a día de hoy aún existe.
+            <br>Entre el 1785 y el 1789 apliaron la Acequia Real del Júcar y eso hizo que el pueblo se centrara en la agricultura.
+            <br>Hoy en día es un pueblo industrial pero que no ha dejado de lado sus raíces con los cultivos de naranja.
+        </p>
+        <h2>Gastronomía</h2>
+        <p>Arroz en perol: Es un guiso meloso que se hace en una cazuela con judías, nabo y mucho cerdo.
+            <br>La pilota de Picassent: Un dulce hecho de pan, almendra, azúcar y canela.
+            <br>El puchero: Hecho con pelotas de carne, garbanzos, blanquet, morcilla y algunas hortalizas.
+        </p>
+        <h2>Término</h2>
+        <p>Picassent no es solo el pueblo, Picassent es un lugar con mucho término, concretamente 85'78 km^2, es el territorio más extenso de la Huerta sur.</p>
+        <h3>Tiene lugares emblemáticos como:</h3>
+        <p>
+            <br> La ermita de la Virgen de la Vallivana: Ubicada en el centro con urbano con una cúpula de tejas azules y blancas.
+            <br> El clot de les tortuges: Una zona recreativa de montaña con muchos pinos, está muy guay para pasar tiempo en familia.
+            <br> Centro penitenciario de Picassent: Probablemente el lugar más emblemático de Picassent, de hecho es administrativamente el complejo penitenciario más grande de toda España.
+        </p>
+        
+    </body>
+</html>
