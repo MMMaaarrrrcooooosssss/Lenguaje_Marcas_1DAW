@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>13_4</title>
+        <meta charset="UTF-8">
+        <style>
+        img {border: red;}
+        </style>
+    </head>
+    <body>
+        <h2>Espada soft combat</h2>
+        <!--Imagen remota-->
+        <img src="https://conversisconsulting.com/2019/10/05/vender-nuevos-productos-retos-y-soluciones-1/" alt="nuevo producto" width="500px" height="">
+        <!--Imagen local-->
+        <img src="espada.png" alt="imagen espada" width="500px" height="">
+        <p><del>50€</del> <strong>40€</strong></p>
+    </body>
+</html>
