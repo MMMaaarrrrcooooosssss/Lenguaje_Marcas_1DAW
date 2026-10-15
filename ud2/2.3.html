@@ -1,1 +1,45 @@
-hola
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.3</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        table,td{
+            border: 5px groove white;
+        }
+    </style>
+</head>
+<body>
+    <h3>Formulario de alta de usuario</h3>
+    <form method="post"  action="http://172.30.18.224:3000">
+        <table>
+            <tr>
+                <td colspan="2">
+                    Identificador de nuevo usuario
+                    <input type="text" name="usuario" value="usu_012345">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nombre
+                    <input type="text" name="Nombre">
+                </td>
+                <td>
+                    Apellidos
+                    <input type="text" name="Apellidos">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Email
+                    <input type="text" name="Email">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
