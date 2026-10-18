@@ -6,37 +6,111 @@
     <title>2.3</title>
     <style>
         body{
-            background-color: brown;
+            background-color: rgb(160, 67, 67);
         }
-        table,td{
-            border: 5px groove white;
+        table,td, tr{
+            border: 7px groove white;
+            border-collapse: collapse;
         }
     </style>
 </head>
 <body>
     <h3>Formulario de alta de usuario</h3>
-    <form method="post"  action="http://172.30.18.224:3000">
+    <form method="post"  action="http://172.30.18.224:3000" enctype="multipart/form-data">
         <table>
             <tr>
                 <td colspan="2">
-                    Identificador de nuevo usuario
-                    <input type="text" name="usuario" value="usu_012345">
+                    <label for="Identificador">Identificador de nuevo usuario</label>
+                    <input type="text" name="usuario" value="usu_012345" id="Identificador" title="Dinos tu nombre de usuario">
                 </td>
             </tr>
             <tr>
                 <td>
-                    Nombre
-                    <input type="text" name="Nombre">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" name="nombre" title="Dinos tu nombre">
                 </td>
                 <td>
-                    Apellidos
-                    <input type="text" name="Apellidos">
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="Apellidos" title="Dinos tus apellidos">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" name="password" id="Contraseña" title="Introduce la contraseña">
+                </td>
+                <td>
+                    <label for="CContraseña">Confirmar Contraseña</label>
+                    <input type="password" name="password2" id="CContraseña" title="Introduce de nuevo la contraseña">
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    Email
-                    <input type="text" name="Email">
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" id="Email" title="Dinos tu email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Género
+                </td>
+                <td>
+                    <label for="1">Chico</label>
+                    <input type="radio" id="1" name="sexo">
+                    <label for="2">Chica</label>
+                    <input type="radio" id="2" name="sexo" checked>
+                    <label for="3">Otro</label>
+                    <input type="radio" id="3" name="sexo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Aficiones
+                </td>
+                <td>
+                    <input type="checkbox" name="aficiones" value="ok">Deportes<br>
+                    <input type="checkbox" name="aficiones" value="ok">Lectura<br>
+                    <input type="checkbox" name="aficiones" value="ok">Cine<br>
+                    <input type="checkbox" name="aficiones" value="ok">Juegos de mesa<br>
+                    <input type="checkbox" name="aficiones" value="ok">Pasear<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    País
+                </td>
+                <td>
+                    <select name="País" id="País">
+                        <option value="pais">España</option>
+                        <option value="pais">Francia</option>
+                        <option value="pais">Alemania</option>
+                        <option value="pais">Suiza</option>
+                        <option value="pais">Noruega</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Subir tu foto:
+                </td>
+                <td>
+                    <input type="file" name="foto" accept=".jpg , .img" title="Sube tu foto">
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    Comentarios personales
+                </td>
+                <td>
+                    <textarea name="comentarios" cols="40" rows="5">Escriba aquí sus comentarios</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" name="reset" value="Resetear" title="Resetea el formulario">
+                </td>
+                <td>
+                    <input type="submit" name="enviar" value="Enviar" action="#" title="Envía el formulario">
                 </td>
             </tr>
         </table>
