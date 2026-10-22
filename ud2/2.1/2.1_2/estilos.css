@@ -1,0 +1,14 @@
+*{
+    font-family: Arial;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: brown;
+}
+p{
+    text-align: justify;
+    color: crimson;
+    background-color: beige;
+}
