@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15_4</title>
+    <style>
+        table,th,td,tr,thead, tbody, tfoot{
+            border-spacing: 20px;
+            vertical-align: middle;
+            empty-cells: show;
+        }
+        caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Ventas</caption>
+        <thead>
+            <tr> 
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th> 
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ratón</td>
+                <td>5</td>
+                <td>25 €</td>
+            </tr>
+            <tr>
+                <td>Pantalla</td>
+                <td>3</td>
+                <td>800 €</td>
+            </tr>
+            <tr>
+                <td>Teclado</td>
+                <td>8</td>
+                <td>12 €</td>
+            </tr>
+            <!--Esta celda vacía sirve para que se destaque el portátil ya que es lo más caro así la gente lo verá antes y tendrá ganas de comprarlo-->
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Portátil+Sistema operativo</td>
+                <td rowspan="2">2</td>
+                <td rowspan="2">1.200 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total acumulado</th>
+                <td>5.021 €</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
