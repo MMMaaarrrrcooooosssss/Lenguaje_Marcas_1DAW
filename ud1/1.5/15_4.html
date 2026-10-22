@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>15_4</title>
     <style>
-        table,th,td,tr,thead, tbody, tfoot{
-            border-spacing: 20px;
+        th,td{
             vertical-align: middle;
             empty-cells: show;
+        }
+        table{
+            border-spacing: 20px;
+            border-collapse: separate;
         }
         caption{
             caption-side: bottom;
@@ -22,10 +25,20 @@
             <tr> 
                 <th>Producto</th>
                 <th>Cantidad</th>
-                <th>Precio</th> 
+                <th>Precio</th>
             </tr> 
         </thead>
         <tbody>
+            <tr>
+                <td rowspan="2">Portátil+Sistema operativo</td>
+                <td>2</td>
+                <td>1.200 €</td>
+            </tr>
+            <!--Esta celda vacía sirve para que se destaque el portátil ya que es lo más caro así la gente lo verá antes y tendrá ganas de comprarlo-->
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
             <tr>
                 <td>Ratón</td>
                 <td>5</td>
@@ -40,15 +53,6 @@
                 <td>Teclado</td>
                 <td>8</td>
                 <td>12 €</td>
-            </tr>
-            <!--Esta celda vacía sirve para que se destaque el portátil ya que es lo más caro así la gente lo verá antes y tendrá ganas de comprarlo-->
-            <tr>
-                <td></td>
-            </tr>
-            <tr>
-                <td rowspan="2">Portátil+Sistema operativo</td>
-                <td rowspan="2">2</td>
-                <td rowspan="2">1.200 €</td>
             </tr>
         </tbody>
         <tfoot>
