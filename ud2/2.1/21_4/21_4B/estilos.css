@@ -1,6 +1,6 @@
-a [target="_blank"] {
+a[target="_blank"] {
     color: aqua;
 }
-.class{
+p.estilo{
     color: violet;
 }
