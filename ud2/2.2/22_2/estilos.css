@@ -1,0 +1,6 @@
+ul, li{
+    list-style-image: url(viñeta.avif);
+    list-style: square;
+    list-style-position: outside
+    /*La diferencia entre outside y inside simplemente es la posición en la que se encuentra la lista*/
+}
