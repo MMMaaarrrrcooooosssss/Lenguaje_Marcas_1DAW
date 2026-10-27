@@ -1,0 +1,22 @@
+*{
+    list-style: none; margin: 0; padding: 0;
+    text-decoration: none
+}
+li{
+    display: inline-block;
+    border: 5px;
+    background-color: chocolate;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15%;
+    color: thistle;
+}
+ul{
+    display: flex;
+    border: 2px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50%;
+    color: tomato;
+}
