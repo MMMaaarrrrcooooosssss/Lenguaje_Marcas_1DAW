@@ -1,0 +1,39 @@
+*{
+    border-color: black;
+}
+.pagina{
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    border: 15px;
+}
+.cabecera{
+    background-color: aquamarine;
+    border: 2px;
+    text-align: center;
+}
+.contenido{
+    background-color: yellowgreen;
+    border: 2px;
+    display: flex;
+}
+.pie{
+    background-color: bisque;
+    border: 2px;
+    text-align: center;
+    margin-top: 7px;
+}
+.tarjeta{
+    width: 220px;
+    padding: 10px;
+    border: 2px;
+    margin: 10px;
+    border-radius: 20%;
+}
+.etiqueta{
+    background-color: slategrey;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    display: inline-block;
+}
