@@ -1,1 +1,29 @@
-bfdkjs
+.contenedor{
+    width: 300px;
+    position: relative;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+.c1{
+    color: blanchedalmond;
+    position: static;
+    left: 50px;
+}
+.c2{
+    color: chartreuse;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    top: -40px;
+    z-index: 500;
+}
+.c3{
+    color: coral;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
