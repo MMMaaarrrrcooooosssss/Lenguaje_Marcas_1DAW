@@ -4,7 +4,7 @@
 }
 li{
     display: inline-block;
-    border: 5px;
+    border: 2px solid black;
     background-color: chocolate;
     padding: 20px;
     margin: auto;
@@ -13,7 +13,7 @@ li{
 }
 ul{
     display: flex;
-    border: 2px;
+    border: 2px solid black;
     background-color: cornflowerblue;
     padding: 10px;
     margin: auto;
