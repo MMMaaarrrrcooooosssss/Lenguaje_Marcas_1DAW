@@ -1,0 +1,15 @@
+nav{
+    position: sticky;
+    top: 0;
+    background-color: chocolate;
+    z-index: 700;
+}
+div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.boton{
+    padding: 15px;
+    border-radius: 60%;
+}
