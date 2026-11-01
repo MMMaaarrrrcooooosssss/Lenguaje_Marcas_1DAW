@@ -1,0 +1,37 @@
+.producto{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.foto{
+    width: 100px;
+    border: 2px solid chocolate;
+    border-radius: 15%;
+    padding: 100px;
+}
+.etiqueta{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+.comentarios{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 100px;
+    position: relative;
+    overflow: auto;
+    visibility: hidden;
+}
+.comentario{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 100px;
+    position: relative;
+    overflow: auto;
+    display: none;
+}
