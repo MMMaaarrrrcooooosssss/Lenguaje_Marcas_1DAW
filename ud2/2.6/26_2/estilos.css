@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(160, 67, 67);
+}
+table,td, tr{
+    border: 7px groove white;
+    border-collapse: collapse;
+}
+:focus{
+    background-color: chocolate;
+}
+:required{
+    border-left: 2px red;
+}
+:read-only:disabled{
+    color: grey;
+}
+label:checked{
+    color: green;
+}
+input:hover:focus{
+    background-color: blueviolet;
+}
