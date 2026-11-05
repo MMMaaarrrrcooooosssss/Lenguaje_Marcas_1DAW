@@ -18,8 +18,8 @@
             </tr>
             <tr>
                 <td>
-                    <label for="Nombre" required>Nombre</label>
-                    <input type="text" id="Nombre" name="nombre" title="Dinos tu nombre">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" name="nombre" title="Dinos tu nombre" required>
                 </td>
                 <td>
                     <label for="Apellidos">Apellidos</label>
@@ -28,18 +28,24 @@
             </tr>
             <tr>
                 <td>
-                    <label for="Contraseña" required>Contraseña</label>
-                    <input type="password" name="password" id="Contraseña" title="Introduce la contraseña">
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" name="password" id="Contraseña" title="Introduce la contraseña" required>
                 </td>
                 <td>
-                    <label for="CContraseña" required>Confirmar Contraseña</label>
-                    <input type="password" name="password2" id="CContraseña" title="Introduce de nuevo la contraseña">
+                    <label for="CContraseña">Confirmar Contraseña</label>
+                    <input type="password" name="password2" id="CContraseña" title="Introduce de nuevo la contraseña" required>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <label for="Email" required>Email</label>
-                    <input type="text" name="email" id="Email" title="Dinos tu email">
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" id="Email" title="Dinos tu email" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="CPromocional">Código promocional</label>
+                    <input type="text" disabled id="CPromocional" title="Código promocional">
                 </td>
             </tr>
             <tr>
@@ -103,11 +109,6 @@
                 </td>
                 <td>
                     <input type="submit" name="enviar" value="Enviar" title="Envía el formulario">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <label for="Código promocional" disabled>Código promocional</label>
                 </td>
             </tr>
         </table>
