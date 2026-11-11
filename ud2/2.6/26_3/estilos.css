@@ -1,0 +1,21 @@
+::first-letter{
+    color: blue;
+    font-size: large;
+}
+::first-line{
+    font-weight: bold;
+}
+::selection{
+    background-color: antiquewhite;
+}
+::before{
+    list-style: none;
+    content:"✔";
+}
+::after{
+    content:"↗";
+    display: block;
+    width: auto;
+    height: auto;
+    background: cadetblue;
+}
